@@ -11,7 +11,8 @@ $ open http://localhost:7001/
 ```
 
 启动 TuGraph Explore 后，如下图所示。
-[explore](https://mdn.alipayobjects.com/mdn/huamei_2dxjn8/afts/img/A*WyQySqm_WeIAAAAAAAAAAAAADrR-AQ)
+
+<img src='https://mdn.alipayobjects.com/mdn/huamei_2dxjn8/afts/img/A*WyQySqm_WeIAAAAAAAAAAAAADrR-AQ' />
 
 连接到 TuGraph 数据库后，就可以开始探索分析了。
 连接 TuGraph 数据，需要提供以下信息：
@@ -20,7 +21,7 @@ $ open http://localhost:7001/
 - 图数据库的密码
 - 图数据库的地址：格式为 ip:port
 
-[tugraph](https://mdn.alipayobjects.com/mdn/huamei_2dxjn8/afts/img/A*O7HCQbdJhVgAAAAAAAAAAAAADrR-AQ)
+<img src='https://mdn.alipayobjects.com/mdn/huamei_2dxjn8/afts/img/A*O7HCQbdJhVgAAAAAAAAAAAAADrR-AQ' />
 
 ### Requirement
 
