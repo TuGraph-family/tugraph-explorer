@@ -30,8 +30,8 @@ $ open http://localhost:7001/
 
 ### Docker 镜像
 
-我们也可以通过 Docker 镜像快速启动 TuGraph Explore，详情参考[如何在本地启动 TuGraph Explore](https://www.yuque.com/antv/gi/gfm9ba)文档。
+我们也可以通过 Docker 镜像快速启动 TuGraph Explore，详情参考[如何在本地启动 TuGraph Explore](./doc/How to start TuGraph Explore.md)文档。
 
 #### 定制 Explore
 
-TuGraph Explore 的个性化定制是通过扩展 GI 资产的方式来扩展，我们默认提供了 [TuGraph Explore](https://github.com/antvis/GraphInsight/tree/master/packages/gi-assets-tugraph) 前端资产。如果要通过自定义资产来扩展 Explore，请参考[扩展文档](https://www.yuque.com/antv/gi/qqnfgm)。
+TuGraph Explore 的个性化定制是通过扩展 GI 资产的方式来扩展，我们默认提供了 [TuGraph Explore](https://github.com/antvis/GraphInsight/tree/master/packages/gi-assets-tugraph) 前端资产。如果要通过自定义资产来扩展 Explore，请参考[扩展文档](./doc/How to customize TuGraph Explore.md)。
