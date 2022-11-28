@@ -7,6 +7,11 @@ RUN mkdir -p /usr/src/tugraph-explore/
 # 定位到容器的工作目录
 WORKDIR /usr/src/tugraph-explore/
 
+ARG registry=https://registry.npm.taobao.org
+ARG disturl=https://npm.taobao.org/dist
+RUN npm config set disturl $disturl
+RUN npm config set registry $registry
+
 # RUN/COPY 是分层的，package.json 提前，只要没修改，就不会重新安装包
 COPY package.json /usr/src/tugraph-explore/package.json
 RUN cd /usr/src/tugraph-explore/
